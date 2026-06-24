@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_73bb138d6abb1d618581af4821113d80 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_73bb138d6abb1d618581af4821113d80" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_73bb138d6abb1d618581af4821113d80 = L.map(
+                "map_73bb138d6abb1d618581af4821113d80",
+                {
+                    center: [-7.125368811833333, -39.481292501666665],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_933073670e717d210608d6bba5da58a6 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_933073670e717d210608d6bba5da58a6.addTo(map_73bb138d6abb1d618581af4821113d80);
+        
+    
+            var marker_b8fc1e20e7d5575610331f31d3ba419e = L.marker(
+                [-7.044375, -39.3407],
+                {
+}
+            ).addTo(map_73bb138d6abb1d618581af4821113d80);
+        
+    
+        var popup_a764d7f3ad5767e8c55dd0831b0467b4 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_cb9f37969acba97228651066cd9b3961 = $(`<div id="html_cb9f37969acba97228651066cd9b3961" style="width: 100.0%; height: 100.0%;">         <h4>Sistema Agroecológico Pe. Cícero</h4>         <p>Exemplo inspirador de convivência harmoniosa entre produção agrícola e conservação ambiental, com uma transformação de uma terra destinada ao cultivo de mandioca para uma agrofloresta diversificada. O espaço é ideal para visitas guiadas e atividades educativas que abordam agroecologia, sustentabilidade e biodiversidade, com contato com a naturea e refeições e lanches tradicionais.</p>         <img src="https://github.com/pablo2fp/Mapa-interativo-do-turismo-rural-no-Cariri/blob/main/Fotos%20turismo/zefa01.jpeg" width="150px">         <br>         <a href="https://www.google.com/maps/search/?api=1&query=-7.044375,-39.3407" target="_blank">Abrir no Google Maps</a>     </div>`)[0];
+                popup_a764d7f3ad5767e8c55dd0831b0467b4.setContent(html_cb9f37969acba97228651066cd9b3961);
+            
+        
+
+        marker_b8fc1e20e7d5575610331f31d3ba419e.bindPopup(popup_a764d7f3ad5767e8c55dd0831b0467b4)
+        ;
+
+        
+    
+    
+            var marker_1b9831cc75eb4cb6383245858912bfa5 = L.marker(
+                [-7.044375, -39.3407],
+                {
+}
+            ).addTo(map_73bb138d6abb1d618581af4821113d80);
+        
+    
+        var popup_c9ba2e9bd65e85b091cdf6744088e152 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_0d0ea10529aaab9e411f0a6c6ce33813 = $(`<div id="html_0d0ea10529aaab9e411f0a6c6ce33813" style="width: 100.0%; height: 100.0%;">         <h4>Sistema Agroecológico Pe. Cícero</h4>         <p>Exemplo inspirador de convivência harmoniosa entre produção agrícola e conservação ambiental, com uma transformação de uma terra destinada ao cultivo de mandioca para uma agrofloresta diversificada. O espaço é ideal para visitas guiadas e atividades educativas que abordam agroecologia, sustentabilidade e biodiversidade, com contato com a naturea e refeições e lanches tradicionais.</p>         <img src="https://github.com/pablo2fp/Mapa-interativo-do-turismo-rural-no-Cariri/blob/main/Fotos%20turismo/zefa01.jpeg" width="150px">         <br>         <a href="https://www.google.com/maps/search/?api=1&query=-7.044375,-39.3407" target="_blank">Abrir no Google Maps</a>     </div>`)[0];
+                popup_c9ba2e9bd65e85b091cdf6744088e152.setContent(html_0d0ea10529aaab9e411f0a6c6ce33813);
+            
+        
+
+        marker_1b9831cc75eb4cb6383245858912bfa5.bindPopup(popup_c9ba2e9bd65e85b091cdf6744088e152)
+        ;
+
+        
+    
+    
+            marker_1b9831cc75eb4cb6383245858912bfa5.bindTooltip(
+                `<div>
+                     Sistema Agroecológico Pe. Cícero
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_953227a5e4db8043dc2330544194d7c1 = L.marker(
+                [-7.050485, -39.318634],
+                {
+}
+            ).addTo(map_73bb138d6abb1d618581af4821113d80);
+        
+    
+        var popup_3f2059b8bc412a498dd5a8bd6781893e = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_8a1a01ca216fc03a9e0a7ad25ffee0f3 = $(`<div id="html_8a1a01ca216fc03a9e0a7ad25ffee0f3" style="width: 100.0%; height: 100.0%;">         <h4>Associação Rural das Mulheres de  Caririaçu</h4>         <p>Nascido da união de mulheres comprometidas com a preservação ambiental, o fortalecimento comunitário e a geração de renda, a associação desenvolve um trabalho de artesado, fabricação de doces aproveitamento sustentável do católe, que é uma espécie abundante na região.</p>         <img src="https://github.com/pablo2fp/Mapa-interativo-do-turismo-rural-no-Cariri/blob/main/Fotos%20turismo/caririacu01.jpeg" width="150px">         <br>         <a href="https://www.google.com/maps/search/?api=1&query=-7.050485,-39.318634" target="_blank">Abrir no Google Maps</a>     </div>`)[0];
+                popup_3f2059b8bc412a498dd5a8bd6781893e.setContent(html_8a1a01ca216fc03a9e0a7ad25ffee0f3);
+            
+        
+
+        marker_953227a5e4db8043dc2330544194d7c1.bindPopup(popup_3f2059b8bc412a498dd5a8bd6781893e)
+        ;
+
+        
+    
+    
+            var marker_5343a986bbeb02ea89e788bd6bf597e5 = L.marker(
+                [-7.050485, -39.318634],
+                {
+}
+            ).addTo(map_73bb138d6abb1d618581af4821113d80);
+        
+    
+        var popup_7e4e43ca01bb196fb926efa96e77acc8 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_ef294ab3eacecdb2ef48233639a31cb2 = $(`<div id="html_ef294ab3eacecdb2ef48233639a31cb2" style="width: 100.0%; height: 100.0%;">         <h4>Associação Rural das Mulheres de  Caririaçu</h4>         <p>Nascido da união de mulheres comprometidas com a preservação ambiental, o fortalecimento comunitário e a geração de renda, a associação desenvolve um trabalho de artesado, fabricação de doces aproveitamento sustentável do católe, que é uma espécie abundante na região.</p>         <img src="https://github.com/pablo2fp/Mapa-interativo-do-turismo-rural-no-Cariri/blob/main/Fotos%20turismo/caririacu01.jpeg" width="150px">         <br>         <a href="https://www.google.com/maps/search/?api=1&query=-7.050485,-39.318634" target="_blank">Abrir no Google Maps</a>     </div>`)[0];
+                popup_7e4e43ca01bb196fb926efa96e77acc8.setContent(html_ef294ab3eacecdb2ef48233639a31cb2);
+            
+        
+
+        marker_5343a986bbeb02ea89e788bd6bf597e5.bindPopup(popup_7e4e43ca01bb196fb926efa96e77acc8)
+        ;
+
+        
+    
+    
+            marker_5343a986bbeb02ea89e788bd6bf597e5.bindTooltip(
+                `<div>
+                     Associação Rural das Mulheres de  Caririaçu
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b5c4e10a67dd6839e2aee1663c08fb31 = L.marker(
+                [-7.0732092, -39.6832737],
+                {
+}
+            ).addTo(map_73bb138d6abb1d618581af4821113d80);
+        
+    
+        var popup_9726fdf2aa6bf4fd222cf0eb1087c921 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_1c3fc1e790a821ee9d4a83daf23ef65d = $(`<div id="html_1c3fc1e790a821ee9d4a83daf23ef65d" style="width: 100.0%; height: 100.0%;">         <h4>Pesqueiro do Sabino</h4>         <p>Pesqueiro do Sabino é um local ideal para momentos de paz, tranquilidade e boa gastronomia, com um ambiente familiar e agradável, voltado para desfrutar da prática da pesca recreativa e apreciação de uma bela paisagem rural. Além disso, a propriedade dispõe de uma diversidade de frutas, ideal para uma visita guiada e o serviço de colhe e pague.</p>         <img src="https://github.com/pablo2fp/Mapa-interativo-do-turismo-rural-no-Cariri/blob/main/Fotos%20turismo/Priscila01.jpeg" width="150px">         <br>         <a href="https://www.google.com/maps/search/?api=1&query=-7.0732092,-39.6832737" target="_blank">Abrir no Google Maps</a>     </div>`)[0];
+                popup_9726fdf2aa6bf4fd222cf0eb1087c921.setContent(html_1c3fc1e790a821ee9d4a83daf23ef65d);
+            
+        
+
+        marker_b5c4e10a67dd6839e2aee1663c08fb31.bindPopup(popup_9726fdf2aa6bf4fd222cf0eb1087c921)
+        ;
+
+        
+    
+    
+            var marker_ab58fe6c74bbfd7e6eb736e303f497b4 = L.marker(
+                [-7.0732092, -39.6832737],
+                {
+}
+            ).addTo(map_73bb138d6abb1d618581af4821113d80);
+        
+    
+        var popup_906505086a0f8dbfb5d312c09895e48c = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_9952db2636b7ea98d7eac537dcc6ba35 = $(`<div id="html_9952db2636b7ea98d7eac537dcc6ba35" style="width: 100.0%; height: 100.0%;">         <h4>Pesqueiro do Sabino</h4>         <p>Pesqueiro do Sabino é um local ideal para momentos de paz, tranquilidade e boa gastronomia, com um ambiente familiar e agradável, voltado para desfrutar da prática da pesca recreativa e apreciação de uma bela paisagem rural. Além disso, a propriedade dispõe de uma diversidade de frutas, ideal para uma visita guiada e o serviço de colhe e pague.</p>         <img src="https://github.com/pablo2fp/Mapa-interativo-do-turismo-rural-no-Cariri/blob/main/Fotos%20turismo/Priscila01.jpeg" width="150px">         <br>         <a href="https://www.google.com/maps/search/?api=1&query=-7.0732092,-39.6832737" target="_blank">Abrir no Google Maps</a>     </div>`)[0];
+                popup_906505086a0f8dbfb5d312c09895e48c.setContent(html_9952db2636b7ea98d7eac537dcc6ba35);
+            
+        
+
+        marker_ab58fe6c74bbfd7e6eb736e303f497b4.bindPopup(popup_906505086a0f8dbfb5d312c09895e48c)
+        ;
+
+        
+    
+    
+            marker_ab58fe6c74bbfd7e6eb736e303f497b4.bindTooltip(
+                `<div>
+                     Pesqueiro do Sabino
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_546b5e3b1216a0a2944baec14a474770 = L.marker(
+                [-7.005191771, -39.73930621],
+                {
+}
+            ).addTo(map_73bb138d6abb1d618581af4821113d80);
+        
+    
+        var popup_fc6c3029dbfb92b9476b5eee49078131 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_a7cb2f9e573385c2098e5b55bd2c5ffb = $(`<div id="html_a7cb2f9e573385c2098e5b55bd2c5ffb" style="width: 100.0%; height: 100.0%;">         <h4>Sítio Dois Irmãos</h4>         <p>Resultado da dedicação do proprietário, o local é um exemplo de natureza e produção sustentável. Em uma área cuidadosamente manejada, os visitantes podem conhecer uma agrofloresta produtiva  que abriga uma impressinante plantação pitayas, além de diversas outras espécies cultivadas de forma integrada.</p>         <img src="https://github.com/pablo2fp/Mapa-interativo-do-turismo-rural-no-Cariri/blob/main/Fotos%20turismo/bel01%20(2).jpeg" width="150px">         <br>         <a href="https://www.google.com/maps/search/?api=1&query=-7.005191771,-39.73930621" target="_blank">Abrir no Google Maps</a>     </div>`)[0];
+                popup_fc6c3029dbfb92b9476b5eee49078131.setContent(html_a7cb2f9e573385c2098e5b55bd2c5ffb);
+            
+        
+
+        marker_546b5e3b1216a0a2944baec14a474770.bindPopup(popup_fc6c3029dbfb92b9476b5eee49078131)
+        ;
+
+        
+    
+    
+            var marker_e5a0779e012c316fb83eee517aa5d7ac = L.marker(
+                [-7.005191771, -39.73930621],
+                {
+}
+            ).addTo(map_73bb138d6abb1d618581af4821113d80);
+        
+    
+        var popup_14f9c96212daf603e27dd48042a03e34 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_54c74446782956e89ae3745f925beb37 = $(`<div id="html_54c74446782956e89ae3745f925beb37" style="width: 100.0%; height: 100.0%;">         <h4>Sítio Dois Irmãos</h4>         <p>Resultado da dedicação do proprietário, o local é um exemplo de natureza e produção sustentável. Em uma área cuidadosamente manejada, os visitantes podem conhecer uma agrofloresta produtiva  que abriga uma impressinante plantação pitayas, além de diversas outras espécies cultivadas de forma integrada.</p>         <img src="https://github.com/pablo2fp/Mapa-interativo-do-turismo-rural-no-Cariri/blob/main/Fotos%20turismo/bel01%20(2).jpeg" width="150px">         <br>         <a href="https://www.google.com/maps/search/?api=1&query=-7.005191771,-39.73930621" target="_blank">Abrir no Google Maps</a>     </div>`)[0];
+                popup_14f9c96212daf603e27dd48042a03e34.setContent(html_54c74446782956e89ae3745f925beb37);
+            
+        
+
+        marker_e5a0779e012c316fb83eee517aa5d7ac.bindPopup(popup_14f9c96212daf603e27dd48042a03e34)
+        ;
+
+        
+    
+    
+            marker_e5a0779e012c316fb83eee517aa5d7ac.bindTooltip(
+                `<div>
+                     Sítio Dois Irmãos
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_95468d8ab91713ec58177de5afeb3753 = L.marker(
+                [-7.340465, -39.392127],
+                {
+}
+            ).addTo(map_73bb138d6abb1d618581af4821113d80);
+        
+    
+        var popup_9a53740f679ee895f8c9993e8832a2af = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_d1c54b2cb79e4d7be39233bad885b3e0 = $(`<div id="html_d1c54b2cb79e4d7be39233bad885b3e0" style="width: 100.0%; height: 100.0%;">         <h4>Sítio Nossa Roça</h4>         <p>Dedicado a valorização da vida no campo, o Sítio Nossa Roça ofecere aos visitantes visitas guiadas para vivenciar o contato com animais, pesque e pague conhecer práticas agroecológicas e o cotidiano da agricultura familiar. O espaço tem hospedagem e estrutura para realização de eventos.</p>         <img src="https://github.com/pablo2fp/Mapa-interativo-do-turismo-rural-no-Cariri/blob/main/Fotos%20turismo/elma01.jpeg" width="150px">         <br>         <a href="https://www.google.com/maps/search/?api=1&query=-7.340465,-39.392127" target="_blank">Abrir no Google Maps</a>     </div>`)[0];
+                popup_9a53740f679ee895f8c9993e8832a2af.setContent(html_d1c54b2cb79e4d7be39233bad885b3e0);
+            
+        
+
+        marker_95468d8ab91713ec58177de5afeb3753.bindPopup(popup_9a53740f679ee895f8c9993e8832a2af)
+        ;
+
+        
+    
+    
+            var marker_748ccc7230e2b47dbe15c1092af01b89 = L.marker(
+                [-7.340465, -39.392127],
+                {
+}
+            ).addTo(map_73bb138d6abb1d618581af4821113d80);
+        
+    
+        var popup_2b32a4aefaf1b5576cde1f93ffe28d00 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_9bdf4bff6342791e9f6c8f1f18eed00b = $(`<div id="html_9bdf4bff6342791e9f6c8f1f18eed00b" style="width: 100.0%; height: 100.0%;">         <h4>Sítio Nossa Roça</h4>         <p>Dedicado a valorização da vida no campo, o Sítio Nossa Roça ofecere aos visitantes visitas guiadas para vivenciar o contato com animais, pesque e pague conhecer práticas agroecológicas e o cotidiano da agricultura familiar. O espaço tem hospedagem e estrutura para realização de eventos.</p>         <img src="https://github.com/pablo2fp/Mapa-interativo-do-turismo-rural-no-Cariri/blob/main/Fotos%20turismo/elma01.jpeg" width="150px">         <br>         <a href="https://www.google.com/maps/search/?api=1&query=-7.340465,-39.392127" target="_blank">Abrir no Google Maps</a>     </div>`)[0];
+                popup_2b32a4aefaf1b5576cde1f93ffe28d00.setContent(html_9bdf4bff6342791e9f6c8f1f18eed00b);
+            
+        
+
+        marker_748ccc7230e2b47dbe15c1092af01b89.bindPopup(popup_2b32a4aefaf1b5576cde1f93ffe28d00)
+        ;
+
+        
+    
+    
+            marker_748ccc7230e2b47dbe15c1092af01b89.bindTooltip(
+                `<div>
+                     Sítio Nossa Roça
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f82b082d1c24a110c231335726745358 = L.marker(
+                [-7.2384869, -39.4137141],
+                {
+}
+            ).addTo(map_73bb138d6abb1d618581af4821113d80);
+        
+    
+        var popup_10f4623eeaadde1f6ab4f088c8221076 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c7f9b4443be4db379dcc32cf2f9458c0 = $(`<div id="html_c7f9b4443be4db379dcc32cf2f9458c0" style="width: 100.0%; height: 100.0%;">         <h4>Pedra de São Romão</h4>         <p>Em meio às belas paisagens do município de Altaneira, a Pedra de São Romão é um destino encantador para quem deseja vivenciiar a natureza, apreciar vistas deslmbrantes e conhecer a hospitalidade das familias rurais da regiao.</p>         <img src="https://github.com/pablo2fp/Mapa-interativo-do-turismo-rural-no-Cariri/blob/main/Fotos%20turismo/pedra01.jpeg" width="150px">         <br>         <a href="https://www.google.com/maps/search/?api=1&query=-7.2384869,-39.4137141" target="_blank">Abrir no Google Maps</a>     </div>`)[0];
+                popup_10f4623eeaadde1f6ab4f088c8221076.setContent(html_c7f9b4443be4db379dcc32cf2f9458c0);
+            
+        
+
+        marker_f82b082d1c24a110c231335726745358.bindPopup(popup_10f4623eeaadde1f6ab4f088c8221076)
+        ;
+
+        
+    
+    
+            var marker_7d82248525ccfcbc3aa940d04b132f38 = L.marker(
+                [-7.2384869, -39.4137141],
+                {
+}
+            ).addTo(map_73bb138d6abb1d618581af4821113d80);
+        
+    
+        var popup_247a364d5ca4c441b9add54e5e70a03c = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_597ffae3a7324b8b7a49577165c9e829 = $(`<div id="html_597ffae3a7324b8b7a49577165c9e829" style="width: 100.0%; height: 100.0%;">         <h4>Pedra de São Romão</h4>         <p>Em meio às belas paisagens do município de Altaneira, a Pedra de São Romão é um destino encantador para quem deseja vivenciiar a natureza, apreciar vistas deslmbrantes e conhecer a hospitalidade das familias rurais da regiao.</p>         <img src="https://github.com/pablo2fp/Mapa-interativo-do-turismo-rural-no-Cariri/blob/main/Fotos%20turismo/pedra01.jpeg" width="150px">         <br>         <a href="https://www.google.com/maps/search/?api=1&query=-7.2384869,-39.4137141" target="_blank">Abrir no Google Maps</a>     </div>`)[0];
+                popup_247a364d5ca4c441b9add54e5e70a03c.setContent(html_597ffae3a7324b8b7a49577165c9e829);
+            
+        
+
+        marker_7d82248525ccfcbc3aa940d04b132f38.bindPopup(popup_247a364d5ca4c441b9add54e5e70a03c)
+        ;
+
+        
+    
+    
+            marker_7d82248525ccfcbc3aa940d04b132f38.bindTooltip(
+                `<div>
+                     Pedra de São Romão
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
